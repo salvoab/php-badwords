@@ -25,7 +25,7 @@
         <button type="submit">Invia</button>
     </form>
     <h2>Paragrafo:</h2>
-    <p> <?php echo  $paragrafo_censurato?> </p>
+    <p> <?php echo  $paragrafo_censurato; ?> </p>
     <p>La lunghezza del paragrafo originale è <?php echo strlen($paragrafo); ?> caratteri</p>
     <p>La lunghezza del paragrafo censurato è <?php echo strlen($paragrafo_censurato); ?> caratteri</p>
 </body>
