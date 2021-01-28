@@ -19,6 +19,11 @@
 <body>
     <h1>BadWords</h1>
     <p>Query-string: <span>?badword=parola_da_censurare</span></p>
+    <form method="GET">
+        <label for="badword">Parola da censurare</label>
+        <input type="text" name="badword" id="badword">
+        <button type="submit">Invia</button>
+    </form>
     <h2>Paragrafo:</h2>
     <p> <?php echo  $paragrafo_censurato?> </p>
     <p>La lunghezza del paragrafo originale è <?php echo strlen($paragrafo)?> caratteri</p>
